@@ -1,4 +1,4 @@
-export const users = [{
+export let users = [{
   id: 1,
   name: 'Gudo',
   email: 'test@test.com',
@@ -13,7 +13,7 @@ export const users = [{
   email: 'sira@test.com'
 }];
 
-export const posts = [{
+export let posts = [{
   id: 11,
   title: 'Gagong Post',
   body: 'Holy shit',
@@ -31,18 +31,32 @@ export const posts = [{
   body: 'Holy shit',
   published: false,
   author: '3'
+}, {
+  id: 14,
+  title: 'This is fourteen',
+  body: 'Holy shit',
+  published: false,
+  author: '1'
 }];
 
-export const comments = [{
+export let comments = [{
   id: '20',
-  text: 'Great'
+  text: 'Great',
+  author: '1',
+  post: '11'
 }, {
   id: '21',
-  text: 'Oh Yes'
+  text: 'Oh Yes',
+  author: '2',
+  post: '12'
 }, {
   id: '22',
-  text: 'Wow'
+  text: 'Wow',
+  author: '3',
+  post: '13'
 }, {
   id: '23',
-  text: 'Bollocks'
+  text: 'Bollocks',
+  author: '1',
+  post: '14'
 }];
