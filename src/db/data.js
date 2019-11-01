@@ -1,38 +1,38 @@
 export let users = [{
-  id: 1,
+  id: '1',
   name: 'Gudo',
   email: 'test@test.com',
   age: 22,
 }, {
-  id: 2,
+  id: '2',
   name: 'Gago',
   email: 'gago@test.com'
 }, {
-  id: 3,
+  id: '3',
   name: 'Sira',
   email: 'sira@test.com'
 }];
 
 export let posts = [{
-  id: 11,
+  id: '11',
   title: 'Gagong Post',
   body: 'Holy shit',
   published: true,
   author: '1'
 }, {
-  id: 12,
+  id: '12',
   title: 'Ang kawawang kaka',
   body: 'Holy shit',
   published: false,
   author: '2'
 }, {
-  id: 13,
+  id: '13',
   title: 'Oh God',
   body: 'Holy shit',
   published: false,
   author: '3'
 }, {
-  id: 14,
+  id: '14',
   title: 'This is fourteen',
   body: 'Holy shit',
   published: false,
